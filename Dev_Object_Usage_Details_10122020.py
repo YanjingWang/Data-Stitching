@@ -300,9 +300,9 @@ print(str(datetime.datetime.now()) + ':The entire load process took   :' + str(e
 
 
 HOST    ='mxout.ne.gov'
-FROM    = 'abhishek.parida@nebraska.gov'
+FROM    = 'yanjing.wang@nebraska.gov'
 SUBJECT = "<<<Object Usage Detail run status>>>"
-TO      = ['abhishek.parida@nebraska.gov']
+TO      = ['yanjing.wang@nebraska.gov']
 
 text    = "Hi All ,\n  " \
           "The Object Usage detail run process for today completed successfully.\n\n" \
