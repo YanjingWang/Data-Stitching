@@ -1,6 +1,6 @@
 ###############################################################################################################
 #-- ==========================================================================================================
-#-- Author      :Data Architecture & Business Intelligence Team
+#-- Author      :Charlotte Wang
 # -- Create date:09/15/2020
 #-- Description :This process will run daily and stitch the data from all the NDE serers to the DataLake
 #-- Version     :1.0
@@ -61,7 +61,7 @@ def createColumnListsPkFk_NonPKFK():
 
 
         # --DB connection String------------------------------------------------------------------------------------------------#
-        db = pyodbc.connect('Driver={SQL Server Native Client 11.0};Server=NDESQL21;Database=NDE_DataLake_PreFinal;UID=dsadm;PWD=Mx!33826ZXL;utocommit=True') 
+        db = pyodbc.connect('Driver={SQL Server Native Client 11.0};Server=NDESQL21;Database=NDE_DataLake_PreFinal;UID=11111;PWD=11111;utocommit=True') 
         cursor = db.cursor()
         createColumnLists_proc = 'EXECUTE [DataStitching].[ColumnListDetailsNonPkFk]'
         cursor.execute(createColumnLists_proc)
