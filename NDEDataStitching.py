@@ -1,6 +1,6 @@
 ###############################################################################################################
 #-- ==========================================================================================================
-#-- Author      :Data Architecture & Business Intelligence Team
+#-- Author      :Charlotte Wang
 # -- Create date:09/15/2020
 #-- Description :This process will run daily and stitch the data from all the NDE serers to the DataLake
 #-- Version     :1.0
